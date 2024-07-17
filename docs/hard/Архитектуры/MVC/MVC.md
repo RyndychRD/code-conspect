@@ -12,10 +12,11 @@
 1. controller
 	1. api 
 		1. user //Отметим, что сам путь по папкам здесь повторяет путь по url
-            1. UserRouter // Внутри идет раздение по методам вызова (GET,POST,PUT...)
-            2. UserController
-            3. UserView
-            4. UserValidator 
+            1. _pages // папка с html страницами, которые используются в UserView
+            2. UserRouter // Внутри идет раздение по методам вызова (GET,POST,PUT...)
+            3. UserController
+            4. UserView
+            5. UserValidator 
 2. service
 	1. user // А вот тут мы уже просто работаем с сущностью user как она есть
         1. UserGateway
