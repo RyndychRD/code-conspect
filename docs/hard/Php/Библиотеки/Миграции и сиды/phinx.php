@@ -18,8 +18,8 @@ $password = $matches[1];
 return
     [
         'paths'         => [
-            'migrations' => '%%PHINX_CONFIG_DIR%%/qrInformer/db/migrations',
-            'seeds'      => '%%PHINX_CONFIG_DIR%%/qrInformer/db/seeds',
+            'migrations' => '%%PHINX_CONFIG_DIR%%/project/db/migrations',
+            'seeds'      => '%%PHINX_CONFIG_DIR%%/project/db/seeds',
         ],
         'environments'  => [
             'default_migration_table' => 'phinxlog',
